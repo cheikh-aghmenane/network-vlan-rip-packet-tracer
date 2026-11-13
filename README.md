@@ -115,5 +115,11 @@ Le paquet traverse les 4 routeurs : 172.16.10.1, 172.16.100.2, 172.16.101.2, 172
 ![tracert de PC0 vers PC49](tracert.png)
 
 
+## Pistes d'amélioration
+
+- Remplacer RIP par **OSPF** (RIP est limité à 15 sauts).
+- Ajouter un serveur **DHCP**.
+- Mettre en place du routage inter-VLAN et des **ACL**.
+- Sécuriser l'accès (mots de passe, SSH, ports inutilisés désactivés).
 
 
